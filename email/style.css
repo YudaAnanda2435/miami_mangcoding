@@ -11,9 +11,11 @@
 }
 
 /* position start */
-.content-email {
+.container-email{
   display: flex;
-  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .email {
@@ -22,6 +24,13 @@
   max-height: 720px;
   max-width: 1920px;
 }
+
+.content-email {
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 .container-bg {
   position: relative;
