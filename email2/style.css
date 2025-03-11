@@ -1,0 +1,152 @@
+@import url("https://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  borer: none;
+  outline: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.email-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  max-height: 720px;
+  max-width: 1920px;
+  top: 882px;
+  border-radius: 16px;
+  background-color: #183657;
+}
+
+.line-vertikal {
+  height: 164px;
+  position: relative;
+  left: 124px;
+  border: 1px solid #183657;
+}
+
+.line-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px 16px 0 0;
+  top: -2px;
+  width: 100%;
+  max-width: 1920px;
+  height: 266px;
+}
+
+.paragraf-1 {
+  width: 479px;
+  left: 101px;
+  position: relative;
+}
+
+h2 {
+  font-family: "sansation", sans-serif;
+  font-size: 64px;
+  font-weight: 700px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1c3e63;
+}
+
+h4 {
+  font-family: "inter", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #1c3e63;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.merk {
+  position: relative;
+  right: 101px;
+}
+/* row 1 end */
+
+.line-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  top: -2px;
+  width: 100%;
+  height: 454px;
+  max-width: 1920px;
+  color: #fff;
+}
+
+.list-email {
+  width: 689px;
+  position: relative;
+  left: 101px;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.list-info {
+  width: 689px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "inter", sans-serif;
+}
+
+.list-info li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+
+.line-vertikal2 {
+  height: 301px;
+  position: relative;
+  left: -8px;
+  border: 1px solid #fff;
+}
+
+p {
+  width: 675px;
+  height: 72px;
+  position: relative;
+  right: 146px;
+  top: 110px;
+  color: #abd8fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-family: "inter", sans-serif;
+}
