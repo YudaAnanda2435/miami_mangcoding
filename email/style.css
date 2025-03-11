@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/sansation");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-decoration: none;
+  borer: none;
+  outline: none;
+}
+
+/* position start */
+.content-email {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  width: 100%;
+  height: 100%;
+  max-height: 720px;
+  max-width: 1920px;
+}
+
+.container-bg {
+  position: relative;
+  display: inline-block;
+}
+
+.bg-image {
+  display: block;
+  width: 809px;
+}
+
+.content-image {
+  position: absolute;
+  top: 256px;
+  left: 112px;
+  width: 585px;
+}
+
+.this-milene {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.milena-content {
+  width: 810px;
+  height: 100%;
+  max-height: 535px;
+  top: 93px;
+  left: 988px;
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+}
+/* position end */
+
+/* settings size element start */
+.heading-milena-content {
+  width: 479px;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #1c3e63;
+  font-family: "sansation", sans-serif;
+}
+
+h4 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #236ba7;
+  font-family: "inter", sans-serif;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-content li {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #236ba7;
+  font-family: "inter", sans-serif;
+}
+
+.content-line {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+}
+
+.list-sosmed {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+
+p {
+  width: 100%;
+  max-height: 810px;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: 0%;
+  color: #e16b25;
+  font-family: "inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* settings size element end */
